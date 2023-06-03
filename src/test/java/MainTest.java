@@ -5,7 +5,7 @@ public class MainTest {
 
 
     @Test
-    void yieldDrei_whenPuttingIn3(){
+    void yieldDrei_whenPuttingIn3() {
         int number = 3;
 
         String actual = Main.numberWord(number);
@@ -13,8 +13,9 @@ public class MainTest {
 
         Assertions.assertEquals(expected, actual);
     }
- @Test
-    void yieldEins_whenPuttingIn1(){
+
+    @Test
+    void yieldEins_whenPuttingIn1() {
         int number = 1;
 
         String actual = Main.numberWord(number);
@@ -22,8 +23,9 @@ public class MainTest {
 
         Assertions.assertEquals(expected, actual);
     }
-@Test
-    void yieldZehn_whenPuttingIn10(){
+
+    @Test
+    void yieldZehn_whenPuttingIn10() {
         int number = 10;
 
         String actual = Main.numberWord(number);
